@@ -6,17 +6,17 @@ Este é um projeto básico em NodeJS usado para exemplificar o sistema backend u
 3. Edição de um produto
 4. Deleção de um produto
 
-## Rotas disponívels
+## Rotas disponíveis
 
 /api/sc3003299/produtos
 
 GET: Retorna todos os livros cadastrados
 
 POST: Cadastra um novo livro
--- itens requeridos:
---- titulo: string contendo o nome do livro
---- descricao: string com a descrição do livro
---- preco: valor do livro (tipo double)
+    - itens requeridos:
+    - titulo: string contendo o nome do livro
+    - descricao: string com a descrição do livro
+    - preco: valor do livro (tipo double)
 
 /api/sc3003299/produtos/:id
 
