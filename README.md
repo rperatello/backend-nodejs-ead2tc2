@@ -16,7 +16,7 @@ Feito isso, volte para a pasta raiz deste projeto e execute o comando `node serv
     Conectado ao banco de dados
     
 
-Rotas disponívels
+## Rotas disponívels
 /api/sc3003299/produtos
 
 GET: Retorna todos os livros cadastrados
