@@ -6,17 +6,8 @@ Este é um projeto básico em NodeJS usado para exemplificar o sistema backend u
 3. Edição de um produto
 4. Deleção de um produto
 
-## Como usar?
-
-Após baixado o projeto, execute o comando `npm install` na pasta raiz do sistema. Abra o MongoDB e crie um banco de dados chamado de `bancoTeste` (basta acessar o console do MongoDB e digitar `use bancoTeste`).
-
-Feito isso, volte para a pasta raiz deste projeto e execute o comando `node server.js`. Se estiver tudo OK, deverá surgir a mensagem:
-```
-    Servidor está executando na porta 8080.
-    Conectado ao banco de dados
-    
-
 ## Rotas disponívels
+
 /api/sc3003299/produtos
 
 GET: Retorna todos os livros cadastrados
@@ -31,3 +22,14 @@ POST: Cadastra um novo livro
 GET: Busca o livro com o ID informado
 PUT: Altera o livro com o ID informado
 DELETE: Deleta o livro com o ID informado
+
+## Como usar?
+
+Após baixado o projeto, execute o comando `npm install` na pasta raiz do sistema. Abra o MongoDB e crie um banco de dados chamado de `bancoTeste` (basta acessar o console do MongoDB e digitar `use bancoTeste`).
+
+Feito isso, volte para a pasta raiz deste projeto e execute o comando `node server.js`. Se estiver tudo OK, deverá surgir a mensagem:
+```
+    Servidor está executando na porta 8080.
+    Conectado ao banco de dados
+    
+
