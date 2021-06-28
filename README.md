@@ -11,6 +11,7 @@ Este é um projeto básico em NodeJS usado para exemplificar o sistema backend u
 /api/sc3003299/produtos
 
 GET: Retorna todos os livros cadastrados
+
 POST: Cadastra um novo livro
 -- itens requeridos:
 --- titulo: string contendo o nome do livro
@@ -32,4 +33,3 @@ Feito isso, volte para a pasta raiz deste projeto e execute o comando `node serv
     Servidor está executando na porta 8080.
     Conectado ao banco de dados
     
-
